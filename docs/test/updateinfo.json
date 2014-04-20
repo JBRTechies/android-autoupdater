@@ -3,7 +3,7 @@
         "appName": "android-autoupdater",
         "appDescription": "android autoupdater",
         "packageName": "com.github.snowdream.android.apps.autoupdater",
-        "versionCode": "2",
+        "versionCode": "3",
         "versionName": "2.0",
         "forceUpdate": false,
         "autoUpdate": false,
