@@ -23,4 +23,5 @@ apply from: '../config/android.gradle'
 dependencies {
     compile project(':client')
     compile 'com.android.support:appcompat-v7:+'
+    compile 'com.google.android.gms:play-services:4.3.23'
 }

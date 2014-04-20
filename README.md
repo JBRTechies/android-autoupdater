@@ -174,7 +174,7 @@ manager.check(this, options,new AbstractUpdateListener() {
 
 ##License
 ```
-Copyright (C) 2013 Snowdream Mobile <yanghui1986527@gmail.com>
+Copyright (C) 2014 Snowdream Mobile <yanghui1986527@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

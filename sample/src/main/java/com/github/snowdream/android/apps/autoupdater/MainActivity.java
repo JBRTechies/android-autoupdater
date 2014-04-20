@@ -11,7 +11,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.github.snowdream.android.app.UpdateFormat;
 import com.github.snowdream.android.app.UpdateManager;
 import com.github.snowdream.android.app.UpdateOptions;
@@ -19,6 +20,7 @@ import com.github.snowdream.android.app.UpdatePeriod;
 
 public class MainActivity extends ActionBarActivity {
     static String str = null;
+    private static final String TEST_DEVICE_ID = "INSERT_YOUR_TEST_DEVICE_ID_HERE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +91,13 @@ public class MainActivity extends ActionBarActivity {
                 textView.setText(str);
             }
 
+            // The "loadAdOnCreate" and "testDevices" XML attributes no longer available.
+            AdView adView = (AdView) rootView.findViewById(R.id.adView);
+            AdRequest adRequest = new AdRequest.Builder()
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    .addTestDevice(TEST_DEVICE_ID)
+                    .build();
+            adView.loadAd(adRequest);
             return rootView;
         }
     }
