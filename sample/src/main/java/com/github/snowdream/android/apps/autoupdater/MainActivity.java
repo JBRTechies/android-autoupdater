@@ -13,10 +13,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.github.snowdream.android.app.UpdateFormat;
-import com.github.snowdream.android.app.UpdateManager;
-import com.github.snowdream.android.app.UpdateOptions;
-import com.github.snowdream.android.app.UpdatePeriod;
+import com.github.snowdream.android.app.updater.UpdateFormat;
+import com.github.snowdream.android.app.updater.UpdateManager;
+import com.github.snowdream.android.app.updater.UpdateOptions;
+import com.github.snowdream.android.app.updater.UpdatePeriod;
 
 public class MainActivity extends ActionBarActivity {
     static String str = null;
