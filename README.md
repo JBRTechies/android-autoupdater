@@ -48,7 +48,9 @@ Download [the latest aar][2] or grab via Maven:
 
 or Gradle:
 ```groovy
-    compile 'com.github.snowdream.android.app:updater:1.0@aar'
+    compile ('com.github.snowdream.android.app:updater:1.0@aar'){
+        transitive=true
+    }
 ```
 
 ##Usage
