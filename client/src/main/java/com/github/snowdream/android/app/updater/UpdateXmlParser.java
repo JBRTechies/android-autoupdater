@@ -94,11 +94,13 @@ public class UpdateXmlParser extends AbstractParser {
                         }
                     } else if (currentTag.equals(TAG_FORCE_UPDATE)) {
                         if (info != null) {
-                            info.setForceUpdate(xpp.nextText() == "true" ? true : false);
+                            String str = xpp.nextText();
+                            info.setForceUpdate( (!TextUtils.isEmpty(str)&& str.equalsIgnoreCase("true")) ? true : false);
                         }
                     } else if (currentTag.equals(TAG_AUTO_UPDATE)) {
                         if (info != null) {
-                            info.setAutoUpdate(xpp.nextText() == "true" ? true : false);
+                            String str = xpp.nextText();
+                            info.setForceUpdate((!TextUtils.isEmpty(str) && str.equalsIgnoreCase("true")) ? true : false);
                         }
                     } else if (currentTag.equals(TAG_APK_URL)) {
                         if (info != null) {
