@@ -1,5 +1,9 @@
 #android-autoupdater
+[![Build Status](https://travis-ci.org/SnowdreamFramework/android-autoupdater.svg?branch=master)](https://travis-ci.org/SnowdreamFramework/android-autoupdater)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.snowdream.android.app/updater/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.snowdream.android.app/updater)
 
+
+[![Pledgie](https://pledgie.com/campaigns/27475.png)](https://pledgie.com/campaigns/27475)
 ##Introduction
 android lib - autoupdater
 
@@ -29,7 +33,7 @@ Android 2.2+
 ##Dependencies
 1. Google Gson [https://code.google.com/p/google-gson/](https://code.google.com/p/google-gson/)
 2. http-request [https://github.com/kevinsawicki/http-request](https://github.com/kevinsawicki/http-request)
-3. android-log [https://github.com/snowdream/android-log](https://github.com/snowdream/android-log)
+3. android-autoupdater [https://github.com/snowdream/android-autoupdater](https://github.com/snowdream/android-autoupdater)
 4. android-downloader [https://github.com/snowdream/android-downloader](https://github.com/snowdream/android-downloader)
 5. android-multithread [https://github.com/snowdream/android-multithread](https://github.com/snowdream/android-multithread)  
 Check this for more informaion. [build.gradle](https://github.com/snowdream/android-autoupdater/blob/master/client/build.gradle)
