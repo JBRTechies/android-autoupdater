@@ -19,6 +19,8 @@ android {
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
         testHandleProfiling true
         testFunctionalTest true
+
+        consumerProguardFiles  getDefaultProguardFile('proguard-android-app-optimize.txt'), 'proguard-rules.txt'
     }
 
     buildTypes {

@@ -10,11 +10,10 @@ import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
 import android.webkit.URLUtil;
-
 import com.github.kevinsawicki.http.HttpRequest;
-import com.github.snowdream.android.app.DownloadListener;
-import com.github.snowdream.android.app.DownloadManager;
-import com.github.snowdream.android.app.DownloadTask;
+import com.github.snowdream.android.app.downloader.DownloadListener;
+import com.github.snowdream.android.app.downloader.DownloadManager;
+import com.github.snowdream.android.app.downloader.DownloadTask;
 import com.github.snowdream.android.util.Log;
 import com.github.snowdream.android.util.concurrent.AsyncTask;
 import com.google.gson.JsonSyntaxException;

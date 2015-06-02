@@ -10,7 +10,7 @@ import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.support.v4.app.NotificationCompat;
 
-import com.github.snowdream.android.app.DownloadTask;
+import com.github.snowdream.android.app.downloader.DownloadTask;
 import com.github.snowdream.android.util.Log;
 
 /**
